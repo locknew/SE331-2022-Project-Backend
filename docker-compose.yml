@@ -17,7 +17,7 @@ services:
       PMA_HOST: db
       MYSQL_ROOT_PASSWORD: password
   backend:
-    image: auto0032/331-securitylab
+    image: locknew/331-securitylab
     restart: always
     ports:
       - 8999:8080
